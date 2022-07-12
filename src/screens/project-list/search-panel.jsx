@@ -1,10 +1,6 @@
 
 export const SearchPanel = ({params,setParam,users}) => {
   
-  
-
-
-  
   return <form action="">
     <div>
       <input type="text" value={params.name} onChange={evt => setParam({
